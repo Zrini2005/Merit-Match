@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/backround2"
+    android:padding="16dp">
+    <EditText
+        android:id="@+id/et_karma_cost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Karma Cost"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Task Description" />
+
+
+</LinearLayout>
